@@ -1,4 +1,4 @@
-// An anagram is the result of rearranging the letters of a word to produce a new word
+// An anagram is the result of rearranging the letters of a word to produce a new word (see wikipedia).
 
 // Note: anagrams are case insensitive
 
@@ -9,6 +9,7 @@
 
 // "Buckethead" is an anagram of "DeathCubeK"
 
+// write the function isAnagram
 var isAnagram = function (test, original) {
   let len1 = test.length;
   let len2 = original.length;
